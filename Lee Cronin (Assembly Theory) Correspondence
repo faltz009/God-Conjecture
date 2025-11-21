@@ -1,0 +1,47 @@
+Corresponded with Lee Cronin (Assembly Theory) over email.
+
+His comment:
+
+Sam,
+
+The universe cannot be a computer because computation is not invariant. This is the major flaw with this work and any computational paradigm of the universe.
+
+Lee
+
+My response via email to address this point:
+
+Lee,
+
+I wanted to address this in more detail because I’m not taking the Wolfram position (Hard Computational Realism).
+
+The ontology of the paper is as follows:
+
+Causal / Morphological structure is invariant (the graph structure of Ruliad, or Assembly space in your work)
+Computational parsing by Observers is not invariant (agree with your view)
+But Categorical relationships are invariant (entropy inequalities, functor composition for all possible observers, natural transformations in the graph-based structure, and conservation laws)
+To address the invariance point in depth:
+
+the sampling functor explicitly models this observer-dependence (in fact this is literally what the papers about!)
+However, this doesn't mean there are NO invariants
+The invariants in this model exist at the categorical level
+Invariants
+
+Morphological invariants: The causal structure (which events causally influence which others) is observer-independent (see below directly relevant to your work!)o 2. Entropic invariants: H(Observable Ruliad) ≤ H(Whole Ruliad) holds for ALL observer functors (proven in paper, related to data processing inequality)
+Compositional invariants: Functor composition is associative for all observers (i.e. every observer runs the SAME computational process even if the results differ)
+Conservation laws: Noether charges (energy, momentum) are invariant across all observer parsing's (giving you physics invariants)
+In fact, Assembly Theory adds another invariant to the structure in my paper – the selection history. While, samplings (computational) vary across Observers, the minimal assembly sequence is Observer-independent in the God Conjecture.
+
+Proof sketch from category theory:
+
+Let S₁, S₂ be two observer functors sampling the full possibility space (here the full Ruliad)
+The causal partial order ≺ on that space (event x causally precedes event y) is preserved:
+
+If x ≺R y, then either:
+
+S₁(x) ≺RO₁ S₁(y), or
+S₁(x) = S₁(y) (coarse-grained together)
+Proof:
+Functors preserve morphisms (by definition)
+Causal order is defined by morphism existence (there exists a path x → y)
+Therefore, causal order cannot be inverted by sampling, only potentially coarse-grained.
+This guarantees different Observers cannot disagree on causal structure (only on the computational interpretation).
